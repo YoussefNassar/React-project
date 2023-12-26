@@ -65,6 +65,7 @@ nav ul {
 
 .center-container{
   display: flex;
+  max-width: full;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -79,11 +80,10 @@ nav ul {
   border-radius: 8px;
   box-sizing: border-box;
   color:var(--dark-gray);
-  cursor: pointer;
   display: flex;
   font-family: Inter,sans-serif;
   font-size: 16px;
-  height: 48px;
+  height: fit-content;
   justify-content: center;
   line-height: 24px;
   width: fit-content;
@@ -91,8 +91,6 @@ nav ul {
   position: relative;
   text-align: center;
   text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
   touch-action: manipulation;
 }
 
@@ -103,7 +101,6 @@ nav ul {
   border-radius: 8px;
   box-sizing: border-box;
   color: #111;
-  cursor: pointer;
   display: flex;
   font-family: Inter,sans-serif;
   font-size: 16px;
@@ -115,8 +112,6 @@ nav ul {
   position: relative;
   text-align: center;
   text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
   touch-action: manipulation;
 }
 
